@@ -1,0 +1,105 @@
+.Side_img{
+    margin: 40px 8px 0px 150px ;
+}
+
+.card{
+    margin-top: 50px;
+    width: 55%;
+    height: 26em;
+}
+.form{
+    margin: 10px 0 0 0;
+    padding: 50px; 
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin: 40px 0 30px 20%  ;
+}
+.input_1{
+    margin-bottom: 0px;
+}
+.form-control{   
+    padding: 0%;
+    margin: 0%;
+    height: 40px;
+    margin-left:32px ;
+    width:80% !important; 
+}
+input,
+input::-webkit-input-placeholder {
+    padding: 2px 2px 4px 2px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.Button{
+    margin-top: 8px;
+    margin-left:28px ;
+    width:80% !important; 
+}
+.or {
+	padding: 30px 28px;
+	position: relative;
+}
+.or:after {
+	content: "";
+	width: 95%;
+	height: 1px;
+	background: #adadad;
+	border-radius: 20px;
+	display: block;
+}
+.or span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	color: #a3a3a3;
+	padding: 0 10px;
+}
+.fb{
+    opacity: 1;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:26% ;
+    font-size: 15px;
+    color: rgba(10, 29, 74, 0.664);
+}  
+.fb img{
+    margin: 3px;
+} 
+.forget{
+    margin-top: 8px;
+}
+.forget a{
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 13px;
+    margin-left:34% ;
+    margin-top: 70px;
+    text-decoration: none;
+}
+.card_1{
+    margin-top: 10px;
+    width: 55%;
+    height: 4em;
+    
+}
+.card_1 p{
+    margin-top: 20px;
+    margin-left:16% ;
+    font-size: 15px;
+}
+.card_1 p span{
+    color: rgb(69, 72, 249);
+    font-weight: 700;
+}
+.Links p{
+    margin: 10px;
+    margin-left:20% ;
+}
+.link_img #img{
+    margin: 10px;
+    width: 50px !important;
+}
