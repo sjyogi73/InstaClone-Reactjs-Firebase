@@ -1,9 +1,9 @@
 .Side_img{
-    margin: 40px 8px 0px 150px ;
+    margin: 3em 8px 0px 150px ;
 }
 
 .card{
-    margin-top: 50px;
+    margin-top: 3em;
     width: 55%;
     height: 26em;
 }
@@ -99,7 +99,10 @@ input::-webkit-input-placeholder {
     margin: 10px;
     margin-left:20% ;
 }
+.link_img{
+    margin-left:2.5% ;
+}
 .link_img #img{
-    margin: 10px;
+    margin: 3em;
     width: 50px !important;
 }
