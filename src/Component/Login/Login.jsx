@@ -8,6 +8,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 import { useNavigate } from "react-router-dom"
 
+//Firebase Initialize
+
 
 //--Styleee//CSS//--//
 import "./Login.css";
@@ -15,7 +17,21 @@ import "./Login.css";
 
 function Login() {
 
+  // const signInWithFacebook=()=>{
+  //   const provider = new FacebookAuthProvider();
+  //   signInWithPopup(signInWithFacebook,provider)
+  //   .then(result=>{
+  //     console.log(result);
+  //   })
+  //   .catch(error=>{
+  //     console.log(error.message);
+  //   }
+  //   )
+  // }
+  
   const navigate = useNavigate();
+
+  //Login...
 
   return (
     <div>
@@ -40,7 +56,7 @@ function Login() {
                   <span>OR</span>
                 </div>
 
-                <a className='fb'><img src={fb} alt="Fb" height={'16px'} />Log in with Facebook</a>
+                <a className='fb' ><img src={fb} alt="Fb" height={'16px'} />Log in with Facebook</a>
                 <p className='forget'><a >Forget Password?</a></p>
               </form>
             </Card>

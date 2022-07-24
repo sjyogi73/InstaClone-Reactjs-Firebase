@@ -1,5 +1,4 @@
 import React from 'react';
-import "./reg.css"
 import { Button, Form } from 'react-bootstrap';
 import { Container, Paper, Typography } from "@mui/material";
 //Style
@@ -9,15 +8,16 @@ function Reg() {
         <div >
             <Container >
                 <Typography variant="h3" sx={({
-                    margin: "0.3em 9em",
-                    fontFamily: "monospace",
+                    margin: "0.2em 9.5em",
+                    fontFamily: "cursive",
                 })}>
                     Registration
                 </Typography>
-                <Paper id="cont" sx={({
+                <Paper  sx={({
                     width: "30em",
-                    margin: "1em 22em",
-                    padding: "2em"
+                    margin: "1.2em 22em",
+                    padding: "2em",
+                    boxShadow: 3,
                 })}>
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
