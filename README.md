@@ -57,6 +57,7 @@ Method to Run Project in your PC
 
 .
 
+Deploy Link : https://insta-web-app-aeae4.web.app/
 
 
 Follow my Social Media & Subscribe Our Youtube Channel 🙏
