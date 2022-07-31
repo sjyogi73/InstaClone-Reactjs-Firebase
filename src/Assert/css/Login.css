@@ -114,11 +114,11 @@ input::-webkit-input-placeholder {
 
 .Links p {
     margin: 10px;
-    margin-left: 20%;
+    margin-left: 40%;
 }
 
 .link_img {
-    margin-left: 2.5%;
+    margin-left: 12.5%;
 
 }
 
@@ -135,7 +135,7 @@ input::-webkit-input-placeholder {
     }
 
     .card {
-        width: 18.5em;
+        width: 18.5em !important;
     }
 
     .Links {
@@ -151,7 +151,7 @@ input::-webkit-input-placeholder {
     }
 
     .card {
-        width: 21.8em;
+        width: 21.8em !important;
     }
 
     .Links {
@@ -160,18 +160,40 @@ input::-webkit-input-placeholder {
 
 }
 
-/* Media Query For 375px -M */
-@media only screen and (min-width: 420px) {
+/* Media Query For 425px -M */
+@media only screen and (min-width: 425px) {
     #login__Image {
         display: none;
     }
-
     .card {
-        width: 21.8em;
+        width: 25em !important;
     }
-
     .Links {
         display: none;
     }
+}
 
+/* Media Query For 768px -M */
+@media only screen and (min-width: 768px) {
+    #login__Image {
+        display: none;
+        width: 20em;
+    }
+    .card {
+        margin: 2em 0 0 9em;
+        width: 25em !important;
+    }
+    
+}
+
+/* Media Query For 1024px -M */
+@media only screen and (min-width: 1024px) {
+  
+    .card {
+        margin: 4em 0 0 2em;
+        width: 25em !important;
+    }
+    .Links {
+        display: block;  
+    }  
 }
