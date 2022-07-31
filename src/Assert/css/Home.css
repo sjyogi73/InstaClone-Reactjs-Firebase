@@ -1,0 +1,91 @@
+  /* Media Query For 320px -S */
+
+  @media only screen and (min-width: 320px) {
+    #image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0px;
+    }
+
+    #home__Content {
+      margin: 0 3em 0 0.4em;
+      font-size: 3em;
+      width: 95%;
+    }
+  }
+
+  /* Media Query For 375px -M */
+  @media only screen and (min-width: 375px) {
+    #image {
+      width: 100%;
+      height: 11em;
+      margin-bottom: 0px;
+    }
+
+    #home__Content {
+      margin: 0 3em 0 0.6em;
+      font-size: 3.5em;
+      width: 95%;
+    }
+  }
+
+  /* Media Query For 425px -L */
+  @media only screen and (min-width: 425px) {
+    #image {
+      width: 100%;
+      height: 15em;
+      margin-bottom: 0px;
+    }
+
+    #home__Content {
+      margin: 0 3em 0 0.6em;
+      font-size: 4em;
+      width: 95%;
+    }
+  }
+
+  /* Media Query For 768px -L */
+  @media only screen and (min-width: 768px) {
+    #image {
+      width: 120%;
+      height: 22em;
+      margin-left: 4em !important;
+      margin-bottom: 0em !important;
+    }
+
+    #home__Content {
+      margin:-2em 0em 0 8em !important;
+      font-size: 4em;
+
+    }
+  }
+
+  /* Media Query For 1024px -L */
+  @media only screen and (min-width: 768px) {
+    #image {
+      width: 120%;
+      height: 25em;
+      margin-left: 8em !important;
+    }
+
+    #home__Content {
+      margin: 4em 0em 0 2em !important;
+      font-size: 4em;
+
+    }
+  }
+
+  /* Media Query For 2560px -L */
+  @media only screen and (min-width: 2560px) {
+    #image {
+      width: 150%;
+      height: 30em;
+      margin-left: 8em !important;
+      margin-top: 5em !important;
+    }
+
+    #home__Content {
+      margin: 4em 0em 0 8em !important;
+      font-size: 4em;
+    }
+  }

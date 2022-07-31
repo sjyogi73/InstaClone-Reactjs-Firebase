@@ -8,11 +8,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 import { useNavigate } from "react-router-dom"
 
-//Firebase Initialize
-
-
 //--Styleee//CSS//--//
-import "./Login.css";
+import "../../Assert/css/Login.css";
 
 
 function Login() {
@@ -37,11 +34,11 @@ function Login() {
     <div>
       <Container>
         <Row>
-          <Col sm={6} >
+          <Col sm={6} id="login__Image">
             <img src={img} className="Side_img" alt="Img" height={"90%"} />
           </Col>
           <Col sm={6}>
-            <Card className='card'>
+            <Card className='card' >
               <img src={logo} alt="Logo" className='logo' height={'55px'} width={"200px"} />
               <form lass="form">
                 <div class="mb-3">

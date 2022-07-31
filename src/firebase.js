@@ -1,11 +1,15 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, signInWithPopup, FacebookAuthProvider } from "firebase/auth";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCrgMEu33nskCtFKvN9-76DYsHJkeB-LaM",
   authDomain: "insta-web-app-aeae4.firebaseapp.com",
+  databaseURL: "https://insta-web-app-aeae4-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "insta-web-app-aeae4",
   storageBucket: "insta-web-app-aeae4.appspot.com",
   messagingSenderId: "112771560798",
@@ -15,4 +19,4 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const authentication = getAuth(app);
+const analytics = getAnalytics(app);
